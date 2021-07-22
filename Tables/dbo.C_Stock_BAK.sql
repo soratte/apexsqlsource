@@ -19,7 +19,8 @@ CREATE TABLE [dbo].[C_Stock_BAK] (
 		[s_ytd]            [int] NULL,
 		[s_order_cnt]      [smallint] NULL,
 		[s_remote_cnt]     [smallint] NULL,
-		[s_data]           [char](50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+		[s_data]           [char](50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+		[eccola]           [nchar](10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
 ) ON [PRIMARY]
 GO
 ALTER TABLE [dbo].[C_Stock_BAK] SET (LOCK_ESCALATION = TABLE)
