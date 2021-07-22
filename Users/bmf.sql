@@ -1,0 +1,4 @@
+CREATE USER [bmf]
+	FOR LOGIN [bmf]
+	WITH DEFAULT_SCHEMA = [dbo]
+GO
